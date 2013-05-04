@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class forklift {
+  package { 'Forklift':
+    provider => 'compressed_app',
+    source   => 'http://download.binarynights.com/ForkLift2.5.4.zip'
+  }
 }
