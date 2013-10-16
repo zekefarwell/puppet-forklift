@@ -7,7 +7,7 @@ The most advanced file manager and FTP/SFTP/Amazon S3/WEBDav client for Mac OS X
 ## Usage
 
 ```puppet
-include forklift
+class { 'forklift': version => '2.5.6' }
 ```
 
 ## Required Puppet Modules

@@ -1,7 +1,7 @@
 # This is a placeholder class.
-class forklift {
+class forklift($version='2.5.6') {
   package { 'Forklift':
     provider => 'compressed_app',
-    source   => 'http://download.binarynights.com/ForkLift2.5.5.zip'
+    source   => "http://download.binarynights.com/ForkLift${version}.zip"
   }
 }
